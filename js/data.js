@@ -42,7 +42,13 @@ export const interventions = [
     img: "images/gaeste_01.jpg"
   },
 
-
+  {
+    title: "IR-Jammer",
+    kategorie: ["Irritation", "Physische Erfahrung"],
+    status: "wird nicht umgesetzt",
+    text: "Installation von IR-Sensoren gekoppelt mit Breitband-Jammern. Wenn wir die ständige digitale Erreichbarkeit und den damit verbundenen Rückzug ins Private durch eine temporäre technische Störung (Jammer) unterbrechen, dann lenken wir die Aufmerksamkeit radikal zurück auf die physische Aufenthaltsqualität vor Ort, weil wir damit sichtbar machen, dass das Smartphone oft als Kompensationsstrategie für fehlende attraktive Begegnungsräume genutzt wird. Die Intervention zwingt das System dazu, die Qualität der analogen Räume und deren soziale Funktion neu zu bewerten.",
+    img: "images/jammer_01.jpg"
+  },
 
 
   {
