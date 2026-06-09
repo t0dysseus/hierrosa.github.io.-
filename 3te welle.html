@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>#BushaltestelleZukunft – Die Auflösung</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --text: #111;
+  --muted: #6b6b6b;
+  --border: #ececec;
+  --bg-soft: #f7f7f7;
+
+  --hero-blue: #cad9ff;
+  --hero-green: #afef73;
+  --hero-orange: #FF5A2F;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: var(--text);
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: clamp(40px, 7vw, 64px);
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  line-height: 1.1;
+}
+
+.hashtag {
+  display: inline-block;
+  background: var(--text);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+header p {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #333;
+  max-width: 800px;
+  margin: 0;
+}
+
+/* CHRONOLOGISCHER CHRONIK-AUFBAU */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.step-card {
+  border: 4px solid var(--text);
+  border-radius: 16px;
+  background: #fff;
+  padding: 32px;
+  position: relative;
+}
+
+.step-number {
+  position: absolute;
+  top: -24px;
+  left: 24px;
+  background: var(--text);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 4px 16px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.step-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-blue { background: var(--hero-blue); }
+.badge-orange { background: var(--hero-orange); color: #fff; }
+.badge-green { background: var(--hero-green); }
+
+.step-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+/* LISTE FÜR DIE ERGEBNISSE */
+.results-list {
+  background: var(--bg-soft);
+  border-left: 6px solid var(--text);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+.results-list h3 {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.results-list ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.results-list li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  border-top: 4px solid var(--text);
+  padding-top: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero-bg">
+  <svg viewBox="0 0 1440 500" preserveAspectRatio="none">
+    <path d="M0,220 C220,40 420,20 760,170 C980,270 1120,70 1440,160 L1440,0 L0,0 Z" fill="var(--hero-blue)" />
+    <path d="M40,0 L180,0 C260,80 260,240 400,320 C120,380 40,340 20,240 C200,160 0,80 40,0 Z" fill="var(--hero-green)" />
+    <path d="M1240,50 C1400,0 1410,20 1360,500 C1290,420 1230,250 1240,120 L1160,120 C980,60 1210,20 1240,100 Z" fill="var(--hero-orange)" />
+  </svg>
+</div>
+
+<div class="content">
+  <header>
+    <div class="hashtag">#BushaltestelleZukunft</div>
+    <h1>Das Experiment.<br>Die Auflösung.</h1>
+    <p>Hinter der Bushaltestelle in der Raucherecke steckte ein klares Konzept. Hier erfahrt ihr die Hintergründe, warum der Ort sich verändert hat und was wir gemeinsam herausgefunden haben.</p>
+  </header>
+
+  <main class="timeline">
+
+    <div class="step-card">
+      <div class="step-number">Phase 1</div>
+      <h2>Das Aufmachen <span><span class="badge badge-blue">Der Start</span></span></h2>
+      <p>Warum haben wir die Raucherecke als scheinbar „echte“ Bushaltestelle inszeniert? Uns ist aufgefallen, dass dieser Ort der zentrale soziale Treffpunkt am Standort Sickinger Straße ist – egal ob für Raucher oder Nichtraucher. Wir wollten diesen Ort aufwerten und eine Plattform bieten, um eure persönlichen Stärken sichtbar zu machen. Eure Tickets waren der Beweis dafür, dass ihr alle die Werkzeuge für eure Ziele bereits in der Tasche habt.</p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-number">Phase 2</div>
+      <h2>Das Zumachen <span><span class="badge badge-orange">Die Irritation</span></span></h2>
+      <p>Am zweiten Tag war die Haltestelle plötzlich „verlegt“ und gesperrt. Das war Absicht. In der Designforschung nennt man das produktive Irritation. Wir wollten testen, wie sensibel das System reagiert, wenn man den gewohnten Treffpunkt wegnimmt. Die Gespräche vor Ort haben sofort gezeigt: Die Haltestelle wurde vermisst. Sie wurde in kürzester Zeit von einem reinen Wartebereich zu einem Ort transformiert, an dem man sich über Wünsche, Ziele und Zukunft austauscht.</p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-number">Phase 3</div>
+      <h2>Die Ergebnisse <span><span class="badge badge-green">Das kam raus</span></span></h2>
+      <p>Wir haben alle eure abgegebenen Tickets und das Stimmungsbild ausgewertet. Und wir müssen sagen: Die Ergebnisse haben uns echt umgehauen! Ihr habt ein unglaublich starkes, ehrliches und vor allem positives Bild von euch gezeichnet:</p>
+      
+      <div class="results-list">
+        <h3>Das habt ihr schwarz auf weiß eingecheckt:</h3>
+        <ul>
+          <li><strong>Die Welt steht euch offen:</strong> Bei euren Zielen wurde klar, dass ihr groß denkt! Einige von euch wollen pulsierende Großstädte wie London und Paris erobern, während andere davon träumen, kleine, ruhige Inseln im Indischen Ozean zu genießen. Nehmt diesen Schwung mit!</li>
+          <li><strong>Ehrliches Stimmungsbild:</strong> Grundsätzlich kam heraus, dass ihr euch hier am Standort echt wohlfühlt. Besonders stark fanden wir eure Ehrlichkeit: An dem Aktionstag ging es einer Person nicht gut – und anstatt das zu überspielen, wurde uns das direkt mit einer ganzen Handvoll Erbsen mitgeteilt. Genau das zeigt echte Größe und Vertrauen. Wir hoffen von Herzen, dass es dir inzwischen wieder viel besser geht!</li>
+          <li><strong>Eure echten Superkräfte:</strong> Neben handwerklichen Fähigkeiten standen zwei Dinge ganz fett auf euren Tickets: <strong>Mut haben</strong> und <strong>lachen können</strong>. Mit dieser Kombination aus Entschlossenheit und Humor im Gepäck wird euch auf eurem Weg so schnell niemand aufhalten.</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Deine Stärke ist dein Ticket zu deinem Ziel. Danke fürs Mitmachen!</p>
+  </footer>
+</div>
+
+</body>
+</html>
